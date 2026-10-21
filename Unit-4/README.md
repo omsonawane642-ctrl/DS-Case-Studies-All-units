@@ -1,52 +1,26 @@
-Unit 4: Dictionary Application Using Hash Tables
+# Unit 4: Dictionary Application Using Hash Tables
 
-Introduction
+## Introduction
+This case study shows how a small dictionary application can store words and their meanings using a hash table. The program uses a hash function to find where each word should be stored and handles collisions using separate chaining.
 
-A dictionary is used to store words and their meanings. In this case study, I have created a simple dictionary application using a hash table in Python. It allows users to add new words, search for meanings, and display the words stored in the dictionary.
+## Aim
+To implement a dictionary that stores, searches, and displays words and meanings using a hash table with collision resolution.
 
-Aim
+## Files Included
+- `Case-Study-Dictionary-Hash-Tables.md` — complete case study report
+- `dictionary_hash_table.py` — menu-based Python program
 
-To implement a dictionary application using a hash table and understand how hashing is used to store and search data.
+## Features
+- Add a word and its meaning
+- Search for a word
+- Update a meaning when the word already exists
+- Display the stored dictionary
+- Handle hash collisions using separate chaining
 
-Objectives
+## How to Run
+Open a terminal in this folder and run:
+```bash
+python dictionary_hash_table.py
+```
 
-- To understand the concept of hash tables.
-- To learn how a hash function works.
-- To understand collision handling using separate chaining.
-- To perform insert, search, and display operations.
-- To study the time complexity of hash table operations.
-
-Files Included
-
-- "Case-Study-Dictionary-Hash-Tables.md" – Contains the complete case study, algorithm, pseudocode, and complexity analysis.
-- "dictionary_hash_table.py" – Contains the Python program for the dictionary application.
-
-Features
-
-- Add a new word with its meaning.
-- Update the meaning of an existing word.
-- Search for a word.
-- Display all stored words and meanings.
-- Handle hash collisions using separate chaining.
-
-Technologies Used
-
-- Programming Language: Python
-- Data Structure: Hash Table
-- Collision Handling: Separate Chaining
-
-How to Run the Program
-
-1. Make sure Python is installed on your computer.
-
-2. Open a terminal or command prompt in the folder containing the Python file.
-
-3. Run the following command:
-   
-   python dictionary_hash_table.py
-
-4. Follow the menu displayed by the program.
-
-Conclusion
-
-Through this case study, I learned how a hash table can be used to store and retrieve words and their meanings. I also understood how a hash function works and how separate chaining helps handle collisions. Hash tables can make searching faster when the data is distributed properly.
+The program is a small educational example. It uses a fixed-size hash table and separate chaining; a production dictionary may use more advanced data structures and storage.
